@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Shopping Cart - CourseStore</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">CourseStore</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="courses.html">Courses</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Cart</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Cart Page Content -->
+    <div class="container mt-5">
+        <h2>Your Shopping Cart</h2>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">Course</th>
+                    <th scope="col">Price</th>
+                    <th scope="col">Quantity</th>
+                    <th scope="col">Total</th>
+                    <th scope="col"></th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Cart Item Example 1 -->
+                <tr>
+                    <td>CSS</td>
+                    <td>RS.399</td>
+                    <td>
+                        <input type="number" value="1" min="1">
+                    </td>
+                    <td>RS.399</td>
+                    <td>
+                        <button class="btn btn-danger btn-sm">Remove</button>
+                    </td>
+                </tr>
+                <!-- Cart Item Example 1 -->
+                <tr>
+                    <td>BOOSTRAP</td>
+                    <td>RS.450</td>
+                    <td>
+                        <input type="number" value="1" min="1">
+                    </td>
+                    <td>RS.450</td>
+                    <td>
+                        <button class="btn btn-danger btn-sm">Remove</button>
+                    </td>
+                </tr>
+                <!-- Cart Item Example 1 -->
+                <tr>
+                    <td>HTML-5</td>
+                    <td>RS.499</td>
+                    <td>
+                        <input type="number" value="1" min="1">
+                    </td>
+                    <td>RS.499</td>
+                    <td>
+                        <button class="btn btn-danger btn-sm">Remove</button>
+                    </td>
+                </tr>
+                <!-- Cart Item Example 1 -->
+                <tr>
+                    <td>JAVASCRIPT</td>
+                    <td>RS.550</td>
+                    <td>
+                        <input type="number" value="1" min="1">
+                    </td>
+                    <td>RS.550</td>
+                    <td>
+                        <button class="btn btn-danger btn-sm">Remove</button>
+                    </td>
+                </tr>
+                <!-- Cart Item Example 1 -->
+                <tr>
+                    <td>REACT.JS</td>
+                    <td>RS.599</td>
+                    <td>
+                        <input type="number" value="1" min="1">
+                    </td>
+                    <td>RS.599</td>
+                    <td>
+                        <button class="btn btn-danger btn-sm">Remove</button>
+                    </td>
+                </tr>
+
+                <!-- Repeat similar structure for other cart items -->
+
+            </tbody>
+        </table>
+
+        <!-- Total Cost Summary -->
+        <div class="text-right">
+            <h4>Total: Rs.2497</h4>
+        </div>
+
+        <!-- Checkout Button -->
+        <div class="text-right mt-3">
+            <button class="btn btn-primary btn-lg">Proceed to Checkout</button>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
